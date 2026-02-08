@@ -3,7 +3,7 @@
 public class Character : MonoBehaviour
 {
     //战斗属性枚举
-    enum CombatAttribute
+    public enum CombatAttribute
     {
         //奥秘
         mystery,
@@ -13,7 +13,7 @@ public class Character : MonoBehaviour
         heartstring
     }
     //角色职业枚举
-    enum RoleProfession
+    public enum RoleProfession
     {
         //近卫
         sentinelTaverns,
@@ -23,9 +23,9 @@ public class Character : MonoBehaviour
         support
     }
     //战斗属性
-    CombatAttribute combatAttribute = CombatAttribute.mystery;
+    public CombatAttribute combatAttribute = CombatAttribute.mystery;
     //角色职业
-    RoleProfession roleProfession = RoleProfession.sentinelTaverns;
+    public RoleProfession roleProfession = RoleProfession.sentinelTaverns;
     //体力
     public float physicalStrength = 0;
     //精神力
