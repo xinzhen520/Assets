@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+//角色基类
 public class Character : MonoBehaviour
 {
     //战斗属性枚举
